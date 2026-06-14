@@ -8,6 +8,7 @@ import Testimonials from "./Components/TESTIMONIALS/Testimonials"
 import Contact from "./Components/Contact/Contact"
 import Footer from "./Components/Footer/Footer"
 import VideoPlayer from "./Components/VideoPlayer/VideoPlayer"
+import ThemeSwitcher from "./Components/ThemeSwitcher";
 import { useState } from "react"
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <>
       <div>
         <Navbar></Navbar>
+         <ThemeSwitcher />
         <Hero></Hero>
         <div className="container">
           <Title subTitle="Our Program" title="What we Offer" />
